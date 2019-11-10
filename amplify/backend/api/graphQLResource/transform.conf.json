@@ -1,3 +1,9 @@
 {
-    "Version": 4
+    "Version": 4,
+    "ResolverConfig": {
+        "project": {
+            "ConflictHandler": "LAST_WRITE_WINS",
+            "ConflictDetection": "VERSION"
+        }
+    }
 }
